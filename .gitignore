@@ -1,0 +1,5 @@
+# vim swap file
+.*.sw?
+
+# common IDEs
+.idea

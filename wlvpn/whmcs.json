@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "wlvpn",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "WLVPN Reseller",
+    "tagline": "Automates selling and managing wlvpn.com customer accounts.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.wlvpn.com/"
+  },
+  "authors": [
+    {
+      "name": "Pradeesh Kumar P",
+      "homepage": "https:\/\/www.netprotect.com\/"
+    }
+  ]
+}
