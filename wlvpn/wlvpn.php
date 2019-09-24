@@ -21,9 +21,6 @@ function genUsername($userId, $accountId) {
 /**
  * Configuration for Reseller API Module
  *
- * @author Pradeesh Kumar P <pradeesh.kumar@stackpath.com>
- * @link https://jira.stackpath.net/browse/IPVDEV-879
- *
  * @return array Config options
  *
  *
@@ -57,8 +54,6 @@ function wlvpn_ConfigOptions()
 /**
  *  Function which set the MetaData for the plugin in admin side
  *
- * @author Pradeesh Kumar <pradeesh.kumar@stackpath.com>
- * @link https://jira.stackpath.net/browse/IPVDEV-894
  * @return array
  */
 function wlvpn_MetaData()
@@ -70,10 +65,6 @@ function wlvpn_MetaData()
 
 /**
  * Function which gets called when an order is placed.
- *
- * @author Pradeesh Kumar P <pradeesh.kumar@stackpath.com>
- * @link https://jira.stackpath.net/browse/IPVDEV-879
- * @link https://jira.stackpath.net/browse/IPVDEV-894
  *
  * @param array $params
  * @return string
@@ -114,9 +105,6 @@ function wlvpn_CreateAccount(array $params)
  * This function is called when a user account is suspended
  * either by admin or by cron for not paying the invoice
  *
- * @author Pradeesh Kumar P <pradeesh.kumar@stackpath.com>
- * @link https://jira.stackpath.net/browse/IPVDEV-894
- *
  * @param $params
  * @return string
  */
@@ -144,9 +132,6 @@ function wlvpn_SuspendAccount($params)
 
 /**
  * This function is called when the suspension is revoked
- *
- * @author Pradeesh Kumar P <pradeesh.kumar@stackpath.com>
- * @link https://jira.stackpath.net/browse/IPVDEV-894
  *
  * @param $params
  * @return string
@@ -177,8 +162,6 @@ function wlvpn_UnsuspendAccount($params)
  * Function is called when an account is terminated by
  * either client or the administrator
  *
- * @author Pradeesh Kumar P <pradeesh.kumar@stackpath.com>
- * @link https://jira.stackpath.net/browse/IPVDEV-894
  *
  * @param $params
  * @return string
@@ -209,9 +192,6 @@ function wlvpn_TerminateAccount($params)
 /**
  * This function is called when the account is renewed
  *
- * @author Pradeesh Kumar P <pradeesh.kumar@stackpath.com>
- * @link https://jira.stackpath.net/browse/IPVDEV-894
- *
  * @param $params
  * @return string
  */
@@ -240,9 +220,6 @@ function wlvpn_Renew($params)
 
 /**
  * This function is called when package is either upgraded or downgraded
- *
- * @author Pradeesh Kumar P <pradeesh.kumar@stackpath.com>
- * @link https://jira.stackpath.net/browse/IPVDEV-894
  *
  * @param $params
  * @return string
@@ -336,10 +313,6 @@ function wlvpn_resetPassword($params)
 
 /**
  * Function to handle different cURL requests based on the action user is performing
- *
- * @author Pradeesh Kumar P <pradeesh.kumar@stackpath.com>
- * @link https://jira.stackpath.net/browse/IPVDEV-879
- * @link https://jira.stackpath.net/browse/IPVDEV-894
  *
  * @param $action
  * @param $data
